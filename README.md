@@ -1,17 +1,5 @@
-# Template: worker
+# roundtwo
 
-A simple template for kick starting a Cloudflare worker project.
+Today, your “Hello Worker” project returns the same response every time. Let’s use an API and a Lookup Table to make things more interesting, and a return 1 of 4 Random Responses  to each GET request.
 
-## Setup
-
-To create a `my-project` directory using this template, run:
-
-```sh
-$ npm init cloudflare my-project worker
-# or
-$ yarn create cloudflare my-project worker
-# or
-$ pnpm create cloudflare my-project worker
-```
-
-> **Note:** Each command invokes [`create-cloudflare`](https://www.npmjs.com/package/create-cloudflare) for project creation.
+Using these concepts, update your Hello Worker script to return this random response.
